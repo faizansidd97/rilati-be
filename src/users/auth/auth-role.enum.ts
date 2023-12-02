@@ -1,0 +1,73 @@
+export enum AuthRoleEnum {
+  unauthorized = "0",
+  user = "10",
+  manager = "20",
+  admin = "100",
+}
+
+
+export enum MaritalStatusEnum  {
+  MARRIED = "MARRIED",
+  SINGLE = "SINGLE",
+  DIVORCED = "DIVORCED",
+  PREFER_NOT_TO_SAY = "PREFER_NOT_TO_SAY",
+}
+
+export enum EducationStageEnum  {
+  HIGH_SCHOOL = "HIGH_SCHOOL",
+  UNIVERSITY = "UNIVERSITY",
+  PREFER_NOT_TO_SAY = "PREFER_NOT_TO_SAY",
+}
+
+export enum SkillsConfident {
+  LEADERSHIP = "LEADERSHIP",
+  PROBLEM_SOLVING = "PROBLEM_SOLVING",
+  COMMUNICATION = "COMMUNICATION",
+  CREATIVITY = "CREATIVITY",
+  ORGANIZATIONAL_SKILLS = "ORGANIZATIONAL_SKILLS",
+  TEAMWORK= "TEAMWORK"
+}
+
+export enum PersonaTraitEnum{
+  INTROVERT= "INTROVERT",
+  EXTROVERT="EXTROVERT",
+  SOME_WHERE_MIDDLE="SOME_WHERE_MIDDLE"
+  }
+
+export enum MapperTypeEnum{
+  INDUSTRY= "INDUSTRY",
+  SUBJECT="SUBJECT"
+  }
+
+
+export enum StudyEnum {
+  HIGH_SCHOOL = "HIGH_SCHOOL",
+  UNIVERSITY = "UNIVERSITY",
+  RATHER_NOT_SAY = "RATHER_NOT_SAY"
+  }
+  
+export enum MyAtarEnum  {
+  BETWEEN_0_10 = "BETWEEN_0_10",
+  BETWEEN_11_20 = "BETWEEN_11_20",
+  BETWEEN_21_30 = "BETWEEN_21_30",
+  BETWEEN_31_40 = "BETWEEN_31_40",
+  BETWEEN_41_50 = "BETWEEN_41_50",
+  BETWEEN_51_60 = "BETWEEN_51_60",
+  BETWEEN_61_70 = "BETWEEN_61_70",
+  BETWEEN_71_80 = "BETWEEN_71_80",
+  BETWEEN_81_90 = "BETWEEN_81_90",
+  PREFER_NOT_TO_SAY = "PREFER_NOT_TO_SAY",
+}
+
+
+export enum StartWorkingEnum  {
+  YES = "YES",
+  YES_PART_TIME = "YES_PART_TIME",
+  NO = "NO",
+  NOT_SURE = "NOT_SURE",
+}
+
+export enum TasteEnum {
+  PREFERRED = "PREFERRED",
+  LESS_PREFERRED = "LESS_PREFERRED"
+}
