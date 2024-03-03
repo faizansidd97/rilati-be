@@ -57,3 +57,4 @@ Thumbs.db
 # environment files
 *.env
 
+.git2
